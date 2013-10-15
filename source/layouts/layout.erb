@@ -27,7 +27,7 @@
 
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %> <%= current_page.data.body_css %>">
     <%= yield %>
   </body>
 
