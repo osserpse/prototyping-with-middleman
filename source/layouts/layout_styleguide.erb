@@ -18,8 +18,10 @@
     <link rel="apple-touch-icon-precomposed" href="/resources/images/favicons/apple-touch-icon-precomposed.png">
     <link rel="icon" href="/resources/images/favicons/favicon.ico" type="image/x-icon">
 
+    <link rel="author" href="humans.txt" />
+
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "CAB Design Guidelines" %></title>
+    <title><%= current_page.data.title || "XYZ Design Guidelines" %></title>
 
     <%= stylesheet_link_tag "app" %>
 
@@ -69,6 +71,8 @@
       <div class="row">
 
         <%= yield %>
+
+        <%= partial "style-guide/nav-sec" %>
 
       </div>
       <div class="row">

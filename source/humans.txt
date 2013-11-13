@@ -1,8 +1,19 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
+/* Made by Happy User, an interaction design firm in Örebro, Sweden */
+/* happyuser.se */
 /* humanstxt.org */
 
+/* TEAM */
+Your title: Lars Olof Berg.
+Site: happyuser.se/lars-olof-berg
+Twitter: osserpse
+Location: Örebro, Sweden
+
+/* THANKS */
+Name: ZURB
+Name: Thomas Reynolds, Middleman
+
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+Last update: 2013-11-13
+Standards: HTML5, CSS3
+Components: jQuery, Orbit, Reveal
+Software: Sublime, Git

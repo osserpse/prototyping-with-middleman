@@ -20,6 +20,7 @@ require 'zurb-foundation'
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
+page "style-guide/*", :layout => :layout_styleguide
 #
 # A path which all have the same layout
 # with_layout :admin do
@@ -47,11 +48,13 @@ require 'zurb-foundation'
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'resources/stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'resources/javascripts'
 
-set :images_dir, 'images'
+set :images_dir, 'resources/images'
+
+set :partials_dir, '/partials'
 
 # Build-specific configuration
 configure :build do
